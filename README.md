@@ -9,4 +9,5 @@ This is a web applicaiton that implements HTML/CSS, Flask, Python, and Newsdata 
 It returns that latest news from user input search query and returns the title, description, link, and date on the webpage<br><br>
 Note: The API searches news articles for specific keywords or phrases present in the news title, content, URL, meta keywords and meta description. In order for articles to be found, the keywords or phrase has to appear somewhere in the article.<br><br>
 Note: Another thing to note is that not every news article publisher is accepted or used by the Newsdata API, so whichever this API accepts will be returned. Results may differ from Google News.<br><br>
-Example: Joe Biden (might not return anything since many news articles refer to him as Biden or President Biden, so these two should be the search words)  
+Example: Joe Biden (might not return anything since many news articles refer to him as Biden or President Biden, so these two should be the search words)<br><br>
+![alt text](http://url/to/img.png)
