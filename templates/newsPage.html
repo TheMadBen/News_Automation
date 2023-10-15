@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latest News Automation</title>
+        <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/newsPage.css') }}">
+    </head>
+    <body>
+        <div class="top-section">
+            <form action="/get_query" method="POST">
+                <label for="query">Enter Query</label><br><br>
+                <input type="text" id="query" name="query"><br><br>
+                <input type="submit" value="Get News">
+            </form>
+            <p class="news-header">Latest News on: {{ query }}</p>
+        </div>
+        <div class="bottom-section">
+            <p class="news">
+                {% for title, desc, url, date in zipped %}
+                Title: {{ title }} <br>
+                Description: {{ desc }} <br>
+                Link: <a href='{{ url }}'>{{ url }}</a> <br>
+                Publish Date: {{ date }} <br><br>
+                {% endfor %}
+            </p>
+        </div>
+    </body>
+</html>
