@@ -1,7 +1,7 @@
 # Setup
 Set up flask environment: In my case, I used VSCode - [Link to setup Flask in VSCode](https://code.visualstudio.com/docs/python/tutorial-flask)<br>
-Must pip install flask and request<br>
-Once that is done, make sure all the files and folders are within the virtual environment (.venv)<br>
+Must pip install flask and request (py -m pip install flask, py -m pip install request)<br>
+Once that is done, make sure all the files (app.py, newsGrabber.py) and folders (static/styles, templates) are within the virtual environment (.venv)<br>
 'py -m flask run' then follow the link on local host port 5000 to work the web application
 
 # News Automation
