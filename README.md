@@ -1,6 +1,6 @@
 # Setup
-Must pip install flask and request<br>
 Set up flask environment: In my case, I used VSCode - [Link to setup Flask in VSCode](https://code.visualstudio.com/docs/python/tutorial-flask)<br>
+Must pip install flask and request<br>
 Once that is done, make sure all the files and folders are within the virtual environment (.venv)<br>
 'py -m flask run' then follow the link on local host port 5000 to work the web application
 
